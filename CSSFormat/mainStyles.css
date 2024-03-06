@@ -1,0 +1,86 @@
+nav ul li {
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #B2BF90;
+    border-radius: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #17291D;
+    padding: 5px;
+}
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li:hover {
+    background-color: rgb(112, 27, 186);
+}
+
+header{
+    background-color: #CEEF5E ;
+    padding: 10px;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #252903;
+}
+footer p {
+    text-align: center;
+    color: white;
+}
+body {font-family: Verdana; margin: 0;}
+
+.product{
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px; 
+    padding-right: 15px; 
+    padding-left: 15px;
+}
+h1{
+    text-align: right;
+    color: #858C52;
+}
+h2{
+    color: #858C52;
+}
+article{
+    color: black;
+}
+#active{
+    border-style: dashed;
+    border-color: #17291D;
+}
+#logo{
+    float:left; 
+    margin-right:10px; 
+    border-radius: 25%; 
+    border:2px solid #000000;
+}
+#homeImage{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%; 
+    border:6px solid #17291D;
+}
+.henImage{
+    display: inline-block;
+    flex: 1; 
+    object-fit: cover;
+    margin: 2px;
+    height: 27em;
+}
